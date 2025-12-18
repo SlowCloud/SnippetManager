@@ -15,6 +15,11 @@ namespace SnippetManager.Models
             this.content = content;
         }
 
+        public override string ToString()
+        {
+            return String.Format("Title: {0}, Content: {1}", title, content);
+        }
+
         public string Content { get => content; set => content = value; }
         public string Title { get => title; set => title = value; }
 
