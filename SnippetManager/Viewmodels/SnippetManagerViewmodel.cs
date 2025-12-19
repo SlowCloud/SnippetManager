@@ -1,10 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Text;
-using SnippetManager.Models;
 using CommunityToolkit.Mvvm.Input;
+using SnippetManager.Models;
+using System.Collections.ObjectModel;
 
 namespace SnippetManager.Viewmodels
 {
