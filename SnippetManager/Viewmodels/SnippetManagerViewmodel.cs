@@ -25,7 +25,6 @@ namespace SnippetManager.Viewmodels
             SelectedSnippet = Snippets[0];
         }
 
-        [RelayCommand]
         private void LoadSnippets()
         {
             Snippets.Add(new Snippet("Example Snippet 1", "This is the content of snippet 1."));
