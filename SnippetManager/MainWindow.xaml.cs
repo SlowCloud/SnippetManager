@@ -16,5 +16,10 @@ namespace SnippetManager
         {
             Clipboard.SetText(SnippetManagerViewmodel.SelectedSnippet.Content);
         }
+
+        private void SaveSnippet(object sender, RoutedEventArgs e)
+        {
+            SnippetManagerViewmodel.SelectedSnippet.Content = SnippetTextBox.Text;
+        }
     }
 }
