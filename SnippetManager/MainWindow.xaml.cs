@@ -11,5 +11,10 @@ namespace SnippetManager
         {
             InitializeComponent();
         }
+
+        private void CopySnippet(object sender, RoutedEventArgs e)
+        {
+            Clipboard.SetText(((Viewmodels.SnippetManagerViewmodel)DataContext).SelectedSnippet.Content);
+        }
     }
 }

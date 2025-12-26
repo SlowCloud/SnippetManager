@@ -39,8 +39,8 @@
         </Grid>
 
         <DockPanel Grid.Column="1" Margin="0,5,5,0">
-            <Button Margin="0,0,0,0">복사</Button>
-            <Button Margin="5,0,0,0">저장</Button>
+            <Button Margin="0,0,0,0" Width="28" Click="CopySnippet">복사</Button>
+            <Button Margin="5,0,0,0" >저장</Button>
             <Button Margin="5,0,0,0">삭제</Button>
             <TextBox Margin="5,0,0,0" Text="{Binding SelectedSnippet.Title, Mode=OneWay}"></TextBox>
         </DockPanel>
